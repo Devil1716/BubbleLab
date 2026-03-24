@@ -123,7 +123,7 @@ pnpm run dev
 
 Open **http://localhost:3000** and you can now build, edit, and run workflows locally!
 
-**⚠️ Note:** To create flow with pearl (our ai assistant), you'll need API keys (GOOGLE_API_KEY). By default gemini-3.0-pro is used for generation and code edits use fast find-and-replace. Weaker model is not well tested and can lead to degraded/inconsistent performance. See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed setup instructions.
+**⚠️ Note:** To create flows with Pearl (our AI assistant), you'll need API keys (`GOOGLE_API_KEY`). BubbleFlow generation now defaults to `google/gemini-2.5-flash` for better availability, and code edits still use fast find-and-replace. See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed setup instructions.
 
 ### Option C — Create a new Bubble Lab project
 
